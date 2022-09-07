@@ -1,8 +1,7 @@
 const { Post } = require("../models");
-const Imagekit = require("imagekit");
-const public_key = `${process.env.PUBLICKEY}`;
-const private_key =`${process.env.PRIVATEKEY}`;
-const urlEndPoint =`${process.env.URLENDPOINT}`;
+const public_key = "public_Qdywgm0HQ8g1LM+tpmhFjhsPg6c="
+const private_key ="private_Ole1dh87WokQzzJtqRclm6pHv7Y="
+const urlEndPoint ="https://ik.imagekit.io/92lyfgj0t"
 const ImageKit = require("imagekit");
 module.exports = {
   create: async (req, res, next) => {
